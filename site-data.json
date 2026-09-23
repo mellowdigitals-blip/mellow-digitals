@@ -2,10 +2,10 @@
   "site": {
     "brand": "Mellow Digitals",
     "heroTitle": "We turn your moments into memories.",
-    "heroText": "Professional video editing, photo editing, digital invitations, data recovery and media solutions â all under one roof.",
-    "heroBadge": "MELLOW DIGITALS â¢ PROFESSIONAL DIGITAL SERVICES",
-    "heroCardTitle": "Professional â¢ Creative â¢ Reliable",
-    "heroCardText": "Video Editing Â· Photo Editing Â· Data Recovery Â· Digital Services",
+    "heroText": "Professional video editing, photo editing, digital invitations, data recovery and media solutions Ã¢ÂÂ all under one roof.",
+    "heroBadge": "MELLOW DIGITALS Ã¢ÂÂ¢ PROFESSIONAL DIGITAL SERVICES",
+    "heroCardTitle": "Professional Ã¢ÂÂ¢ Creative Ã¢ÂÂ¢ Reliable",
+    "heroCardText": "Video Editing ÃÂ· Photo Editing ÃÂ· Data Recovery ÃÂ· Digital Services",
     "aboutTitle": "Creative work with dependable digital support.",
     "aboutText": "From wedding films and photographs to invitations and data recovery, Mellow Digitals brings creative editing and practical digital services together.",
     "aboutPoints": [
@@ -22,37 +22,37 @@
   "services": [
     {
       "title": "Wedding Video Editing",
-      "icon": "â¶",
+      "icon": "Ã¢ÂÂ¶",
       "description": "Cinematic wedding, engagement, half-saree and birthday video editing with professional finishing.",
       "demoCategory": "wedding"
     },
     {
       "title": "Photo Editing",
-      "icon": "â¦",
+      "icon": "Ã¢ÂÂ¦",
       "description": "Retouching, album design, restoration and creative photo editing for memorable moments.",
       "demoCategory": ""
     },
     {
       "title": "Data Recovery",
-      "icon": "âº",
+      "icon": "Ã¢ÂÂº",
       "description": "Recovery support for memory cards, hard disks, pen drives and SSDs.",
       "demoCategory": ""
     },
     {
       "title": "Digital Invitations",
-      "icon": "â",
+      "icon": "Ã¢ÂÂ",
       "description": "WhatsApp invitations for weddings, birthdays, housewarmings and special events.",
       "demoCategory": "invitation"
     },
     {
       "title": "Video Conversion",
-      "icon": "â£",
+      "icon": "Ã¢ÂÂ£",
       "description": "Video conversion and optimization for TV, mobile, USB and different playback devices.",
       "demoCategory": ""
     },
     {
       "title": "Digital & Computer Services",
-      "icon": "â",
+      "icon": "Ã¢ÂÂ",
       "description": "Photo printing, document services, computer accessories and other digital solutions.",
       "demoCategory": ""
     }
@@ -74,7 +74,7 @@
       "title": "Half-Saree Ceremony",
       "category": "half-saree",
       "description": "Traditional event video sample.",
-      "url": "https://youtu.be/KF-p-7LFCXs?si=R42wx7jbux6FmPlF"
+      "url": "https://www.youtube.com/embed/KF-p-7LFCXs"
     },
     {
       "title": "Birthday Celebration",
