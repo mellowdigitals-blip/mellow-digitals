@@ -66,7 +66,7 @@ footer{background:#090909;color:#fff;padding:38px 0}.footerin{display:flex;justi
     <a href="#home"><img class="logoimg" src="mellow-logo.png" alt="Mellow Digitals"></a>
     <nav class="links">
       <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
-      <a class="btn btn-wa" href="https://wa.me/919391114848" target="_blank" rel="noopener">WhatsApp</a>
+      <a class="btn btn-wa" id="navWa" href="#" target="_blank" rel="noopener">WhatsApp</a>
     </nav>
   </div>
 </header>
@@ -75,45 +75,34 @@ footer{background:#090909;color:#fff;padding:38px 0}.footerin{display:flex;justi
 <section class="hero">
  <div class="wrap hero-grid">
   <div>
-   <span class="badge">MELLOW DIGITALS • PROFESSIONAL DIGITAL SERVICES</span>
-   <h1>We turn your moments into memories.</h1>
-   <p>Professional video editing, photo editing, digital invitations, data recovery and media solutions — all under one roof.</p>
+   <span class="badge" id="heroBadge"></span>
+   <h1 id="heroTitle"></h1>
+   <p id="heroText"></p>
    <div class="actions">
     <a class="btn btn-red" href="#services">Explore Services</a>
-    <a class="btn btn-wa" href="https://wa.me/919391114848" target="_blank" rel="noopener">WhatsApp Us</a>
+    <a class="btn btn-wa" id="heroWa" href="#" target="_blank" rel="noopener">WhatsApp Us</a>
    </div>
   </div>
   <div class="hero-card">
    <img src="mellow-logo.png" alt="Mellow Digitals Logo">
-   <strong>Professional • Creative • Reliable</strong>
-   <small>Video Editing · Photo Editing · Data Recovery · Digital Services</small>
+   <strong id="heroCardTitle"></strong>
+   <small id="heroCardText"></small>
   </div>
  </div>
 </section>
 
 <section id="services">
  <div class="wrap">
-  <div class="section-head"><div><div class="eyebrow">WHAT WE DO</div><h2>Our Services</h2></div><p>Creative and practical digital services for weddings, celebrations, businesses and everyday needs.</p></div>
-  <div class="cards">
-   <article class="card"><div class="icon">▶</div><h3>Wedding Video Editing</h3><p>Cinematic wedding, engagement, half-saree and birthday video editing with professional finishing.</p></article>
-   <article class="card"><div class="icon">✦</div><h3>Photo Editing</h3><p>Retouching, album design, restoration and creative photo editing for memorable moments.</p></article>
-   <article class="card"><div class="icon">↺</div><h3>Data Recovery</h3><p>Recovery support for memory cards, hard disks, pen drives and SSDs.</p></article>
-   <article class="card"><div class="icon">✉</div><h3>Digital Invitations</h3><p>WhatsApp invitations for weddings, birthdays, housewarmings and special events.</p></article>
-   <article class="card"><div class="icon">▣</div><h3>Video Conversion</h3><p>Video conversion and optimization for TV, mobile, USB and different playback devices.</p></article>
-   <article class="card"><div class="icon">⌘</div><h3>Digital & Computer Services</h3><p>Photo printing, document services, computer accessories and other digital solutions.</p></article>
-  </div>
+  <div class="section-head"><div><div class="eyebrow">WHAT WE DO</div><h2>Our Services</h2></div><p id="servicesIntro">Creative and practical digital services for weddings, celebrations, businesses and everyday needs.</p></div>
+  <div class="cards" id="servicesGrid"></div>
  </div>
 </section>
 
 <section id="about" class="soft">
  <div class="wrap about">
-  <div><div class="eyebrow">ABOUT MELLOW DIGITALS</div><h2>Creative work with dependable digital support.</h2>
-   <p>From wedding films and photographs to invitations and data recovery, Mellow Digitals brings creative editing and practical digital services together.</p>
-   <div class="points">
-    <div class="point"><span class="tick">✓</span><span>Professional video and photo editing</span></div>
-    <div class="point"><span class="tick">✓</span><span>Fast communication through WhatsApp</span></div>
-    <div class="point"><span class="tick">✓</span><span>Solutions for personal and business requirements</span></div>
-   </div>
+  <div><div class="eyebrow">ABOUT MELLOW DIGITALS</div><h2 id="aboutTitle"></h2>
+   <p id="aboutText"></p>
+   <div class="points" id="aboutPoints"></div>
   </div>
   <div class="stats">
    <div class="stat"><b>20+</b><span>Years of digital experience</span></div>
@@ -125,21 +114,25 @@ footer{background:#090909;color:#fff;padding:38px 0}.footerin{display:flex;justi
 </section>
 
 <section>
- <div class="wrap"><div class="cta"><div class="eyebrow" style="color:#ffd1d1">LET'S CREATE</div><h2>Have a video, photo, invitation or recovery requirement?</h2><p>Send your requirement on WhatsApp and let's discuss your project.</p><a class="btn btn-wa" href="https://wa.me/919391114848" target="_blank" rel="noopener">Chat on WhatsApp</a></div></div>
+ <div class="wrap"><div class="cta"><div class="eyebrow" style="color:#ffd1d1">LET'S CREATE</div><h2 id="ctaTitle"></h2><p id="ctaText"></p><a class="btn btn-wa" id="ctaWa" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></div></div>
 </section>
 
 <section id="contact" class="soft">
  <div class="wrap">
-  <div class="section-head"><div><div class="eyebrow">GET IN TOUCH</div><h2>Contact Mellow Digitals</h2></div><p>For enquiries, project details and service information, contact us directly.</p></div>
+  <div class="section-head"><div><div class="eyebrow">GET IN TOUCH</div><h2>Contact Mellow Digitals</h2></div><p id="contactIntro"></p></div>
   <div class="contact">
-   <div class="contactbox"><div class="contactrow"><b>WhatsApp</b><span>+91 93911 14848</span></div><div class="contactrow"><b>Website</b><span>mellowdigitals.dpdns.org</span></div><div class="contactrow"><b>Services</b><span>Video Editing • Photo Editing • Data Recovery • Digital Services</span></div></div>
-   <div class="contactbox"><h3>Ready to start?</h3><p style="color:#626262">Send us a WhatsApp message with your requirement. We can discuss the project and next steps.</p><a class="btn btn-wa" href="https://wa.me/919391114848?text=Hello%20Mellow%20Digitals%2C%20I%20need%20information%20about%20your%20services." target="_blank" rel="noopener">Message Mellow Digitals</a></div>
+   <div class="contactbox"><div class="contactrow"><b>WhatsApp</b><span id="contactWhatsapp"></span></div><div class="contactrow"><b>Website</b><span id="contactWebsite"></span></div><div class="contactrow"><b>Services</b><span>Video Editing • Photo Editing • Data Recovery • Digital Services</span></div></div>
+   <div class="contactbox"><h3>Ready to start?</h3><p style="color:#626262">Send us a WhatsApp message with your requirement. We can discuss the project and next steps.</p><a class="btn btn-wa" id="contactWa" href="#" target="_blank" rel="noopener">Message Mellow Digitals</a></div>
   </div>
  </div>
 </section>
 </main>
 
-<footer><div class="wrap footerin"><div><b>Mellow Digitals</b><div class="footmuted">Professional Video Editing & Digital Services</div></div><div class="footmuted">© 2026 Mellow Digitals • mellowdigitals.dpdns.org</div></div></footer>
-<a class="floatwa" href="https://wa.me/919391114848" target="_blank" rel="noopener" aria-label="WhatsApp Mellow Digitals">✆</a>
+<footer><div class="wrap footerin"><div><b>Mellow Digitals</b><div class="footmuted">Professional Video Editing & Digital Services</div></div><div class="footmuted">© 2026 Mellow Digitals • mellowdigitals.dpdns.org · <a href="admin.html" style="color:#777">Admin Edit</a></div></div></footer>
+<a class="floatwa" id="floatWa" href="#" target="_blank" rel="noopener" aria-label="WhatsApp Mellow Digitals">✆</a>
+<script>
+(async function(){
+try{const data=await fetch('site-data.json?ts='+Date.now()).then(r=>r.json());const s=data.site||{};const wa=(s.whatsapp||'9391114848').replace(/\D/g,'');const waUrl='https://wa.me/91'+wa;const set=(id,val)=>{const el=document.getElementById(id);if(el)el.textContent=val||''};const esc=v=>String(v??'').replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));set('heroBadge',s.heroBadge);set('heroTitle',s.heroTitle);set('heroText',s.heroText);set('heroCardTitle',s.heroCardTitle);set('heroCardText',s.heroCardText);set('aboutTitle',s.aboutTitle);set('aboutText',s.aboutText);set('ctaTitle',s.ctaTitle);set('ctaText',s.ctaText);set('contactIntro',s.contactIntro);set('contactWhatsapp','+91 '+(s.whatsapp||''));set('contactWebsite',s.website||location.host);const ap=document.getElementById('aboutPoints');if(ap)ap.innerHTML=(s.aboutPoints||[]).map(x=>'<div class="point"><span class="tick">✓</span><span>'+esc(x)+'</span></div>').join('');const grid=document.getElementById('servicesGrid');if(grid)grid.innerHTML=(data.services||[]).map(x=>{const content='<div class="icon">'+esc(x.icon||'✦')+'</div><h3>'+esc(x.title)+'</h3><p>'+esc(x.description)+'</p>';return x.demoCategory?'<a class="card" href="demos.html?category='+encodeURIComponent(x.demoCategory)+'">'+content+'</a>':'<article class="card">'+content+'</article>'}).join('');['navWa','heroWa','ctaWa','contactWa','floatWa'].forEach(id=>{const el=document.getElementById(id);if(el)el.href=waUrl});const c=document.getElementById('contactWa');if(c)c.href=waUrl+'?text='+encodeURIComponent('Hello Mellow Digitals, I need information about your services.')}catch(e){console.warn(e)}})();
+</script>
 </body>
 </html>

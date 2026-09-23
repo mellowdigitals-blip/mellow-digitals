@@ -1,0 +1,98 @@
+{
+  "site": {
+    "brand": "Mellow Digitals",
+    "heroTitle": "We turn your moments into memories.",
+    "heroText": "Professional video editing, photo editing, digital invitations, data recovery and media solutions — all under one roof.",
+    "heroBadge": "MELLOW DIGITALS • PROFESSIONAL DIGITAL SERVICES",
+    "heroCardTitle": "Professional • Creative • Reliable",
+    "heroCardText": "Video Editing · Photo Editing · Data Recovery · Digital Services",
+    "aboutTitle": "Creative work with dependable digital support.",
+    "aboutText": "From wedding films and photographs to invitations and data recovery, Mellow Digitals brings creative editing and practical digital services together.",
+    "aboutPoints": [
+      "Professional video and photo editing",
+      "Fast communication through WhatsApp",
+      "Solutions for personal and business requirements"
+    ],
+    "ctaTitle": "Have a video, photo, invitation or recovery requirement?",
+    "ctaText": "Send your requirement on WhatsApp and let's discuss your project.",
+    "contactIntro": "For enquiries, project details and service information, contact us directly.",
+    "whatsapp": "9391114848",
+    "website": "mellowdigitals.dpdns.org"
+  },
+  "services": [
+    {
+      "title": "Wedding Video Editing",
+      "icon": "▶",
+      "description": "Cinematic wedding, engagement, half-saree and birthday video editing with professional finishing.",
+      "demoCategory": "wedding"
+    },
+    {
+      "title": "Photo Editing",
+      "icon": "✦",
+      "description": "Retouching, album design, restoration and creative photo editing for memorable moments.",
+      "demoCategory": ""
+    },
+    {
+      "title": "Data Recovery",
+      "icon": "↺",
+      "description": "Recovery support for memory cards, hard disks, pen drives and SSDs.",
+      "demoCategory": ""
+    },
+    {
+      "title": "Digital Invitations",
+      "icon": "✉",
+      "description": "WhatsApp invitations for weddings, birthdays, housewarmings and special events.",
+      "demoCategory": "invitation"
+    },
+    {
+      "title": "Video Conversion",
+      "icon": "▣",
+      "description": "Video conversion and optimization for TV, mobile, USB and different playback devices.",
+      "demoCategory": ""
+    },
+    {
+      "title": "Digital & Computer Services",
+      "icon": "⌘",
+      "description": "Photo printing, document services, computer accessories and other digital solutions.",
+      "demoCategory": ""
+    }
+  ],
+  "demos": [
+    {
+      "title": "Wedding Cinematic Demo",
+      "category": "wedding",
+      "description": "Wedding highlight editing sample.",
+      "url": ""
+    },
+    {
+      "title": "Engagement Highlights",
+      "category": "engagement",
+      "description": "Romantic engagement edit sample.",
+      "url": ""
+    },
+    {
+      "title": "Half-Saree Ceremony",
+      "category": "half-saree",
+      "description": "Traditional event video sample.",
+      "url": ""
+    },
+    {
+      "title": "Birthday Celebration",
+      "category": "birthday",
+      "description": "Birthday highlights demo.",
+      "url": ""
+    },
+    {
+      "title": "Housewarming Highlights",
+      "category": "housewarming",
+      "description": "Gruhapravesam event edit sample.",
+      "url": ""
+    },
+    {
+      "title": "Digital Invitation",
+      "category": "invitation",
+      "description": "WhatsApp invitation video sample.",
+      "url": ""
+    }
+  ]
+}
